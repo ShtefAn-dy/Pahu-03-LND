@@ -1,0 +1,14 @@
+#section03 {
+    // ?? grid-area: "section03"; helpers -> _grid.scss
+    // background-color: linear-gradient(90deg, rgba(var(--dtl-white)) 75%, rgba(var(--dtl-red)) 75%);
+    background: linear-gradient(-90deg, rgba(128, 128, 128, .4) calc(100% / 2), rgba(250, 128, 114, .4) calc(100% / 2));
+    overflow: hidden; // for swiper
+}
+
+.section03 {
+    background: linear-gradient(-90deg, rgba(128, 128, 128, .4) calc(100% / 2), rgba(250, 128, 114, .4) calc(100% / 2));
+  padding-top: calc(var(--gap-v) * (3));
+     padding-bottom: calc(var(--gap-v) * (3));
+    height: calc(30vh - calc(var(--gap-v) * 1));
+    color: black;
+}
